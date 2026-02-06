@@ -161,3 +161,38 @@ ul.main-menu li a.active {
 .show {
   display: block;
 }
+
+.profile {
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+  margin-bottom: 2em;
+}
+
+.profile-photo img {
+  width: 180px;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.profile-text {
+  flex: 1;
+}
+
+/* Responsive: stack on small screens */
+@media (max-width: 700px) {
+  .profile {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-photo img {
+    width: 220px;
+  }
+
+  .profile-text {
+    text-align: left;
+  }
+}
+
