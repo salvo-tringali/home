@@ -233,7 +233,7 @@ ul.main-menu li a.active {
 
 #header-institute a {
   font-size: 2rem;     /* aumenta dimensione link istituto */
-  color: #FFFFFF;      /* colore link */
+  color: #00FF00;      /* colore link */
   text-decoration: none;
   margin: 0 8px;       /* spazio tra i link */
 }
