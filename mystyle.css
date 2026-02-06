@@ -199,3 +199,23 @@ ul.main-menu li a.active {
   }
 }
 
+.profile-vertical {
+  text-align: center; /* centra tutto il contenuto */
+  margin-bottom: 2em;
+}
+
+.profile-vertical .profile-photo img {
+  width: 220px;   /* puoi aumentare se vuoi ingrandire */
+  max-width: 100%; /* non sfora su schermi piccoli */
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  margin-bottom: 20px; /* spazio tra foto e testo */
+}
+
+.profile-vertical .profile-text {
+  text-align: left; /* testo allineato a sinistra per leggibilità */
+  max-width: 800px; /* opzionale: limita larghezza per paragrafi lunghi */
+  margin: 0 auto;
+}
+
