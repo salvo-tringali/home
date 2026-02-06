@@ -111,7 +111,7 @@ body {
 }
 
 /* LIGHT PANELS INSTEAD OF DARK ONES */
-header, #content, footer { 
+#content, footer { 
   background: rgba(255,255,255,.92);
   padding: 25px;
   color: #222222; 
@@ -219,3 +219,25 @@ ul.main-menu li a.active {
   margin: 0 auto;
 }
 
+#header {
+  text-align: center; /* centra tutto */
+  margin: 40px 0;     /* spazio sopra e sotto l'intestazione */
+}
+
+#header-name {
+  font-size: 4rem;     /* aumenta la dimensione del nome */
+  font-weight: 700;    /* grassetto */
+  color: #EF6D3D;      /* puoi cambiare colore */
+  margin-bottom: 15px; /* spazio tra nome e istituto */
+}
+
+#header-institute a {
+  font-size: 2rem;     /* aumenta dimensione link istituto */
+  color: #FFFFFF;      /* colore link */
+  text-decoration: none;
+  margin: 0 8px;       /* spazio tra i link */
+}
+
+#header-institute a:hover {
+  text-decoration: underline;
+}
