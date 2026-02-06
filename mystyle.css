@@ -169,15 +169,16 @@ ul.main-menu li a.active {
   margin-bottom: 2em;
 }
 
+.profile-photo,
+.profile-text {
+  flex: 1; /* foto e testo occupano lo stesso spazio */
+}
+
 .profile-photo img {
-  width: 180px;
+  width: 100%;      /* riempie lo spazio disponibile */
   height: auto;
   border-radius: 6px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
-
-.profile-text {
-  flex: 1;
 }
 
 /* Responsive: stack on small screens */
@@ -188,7 +189,7 @@ ul.main-menu li a.active {
   }
 
   .profile-photo img {
-    width: 250px;
+    width: 220px;
   }
 
   .profile-text {
