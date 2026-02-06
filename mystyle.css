@@ -206,7 +206,7 @@ ul.main-menu li a.active {
 
 .profile-vertical .profile-photo img {
   width: 220px;   /* puoi aumentare se vuoi ingrandire */
-  max-width: 100%; /* non sfora su schermi piccoli */
+  max-width: 80%; /* non sfora su schermi piccoli */
   height: auto;
   border-radius: 6px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
