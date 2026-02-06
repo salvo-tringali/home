@@ -175,10 +175,12 @@ ul.main-menu li a.active {
 }
 
 .profile-photo img {
-  width: 100%;      /* riempie lo spazio disponibile */
+  width: 100%;
   height: auto;
   border-radius: 6px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transform: scale(1.2);
+  transform-origin: center; /* mantiene il centro come punto di ingrandimento */
 }
 
 /* Responsive: stack on small screens */
