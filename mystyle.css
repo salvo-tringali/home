@@ -63,7 +63,7 @@ body {
   font-weight: 400;
   font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222222;
-  padding-top: 80px; 
+  padding-top: 60px; 
   /* Per evitare che il contenuto sia nascosto sotto la navbar */
 }
 
@@ -136,7 +136,7 @@ body {
 /* LIGHT PANELS INSTEAD OF DARK ONES */
 header, #content, footer { 
   background: rgba(255,255,255,.92);
-  padding: 35px; 
+  padding: 25px; 
   color: #222222; 
   box-shadow: 0 0 20px rgba(0,0,0,0.08);
   border-radius: 6px;
