@@ -1,8 +1,7 @@
-/**
- * Typography & Text styles
- */
+/* Typography & Text styles */
 
 /* html is set to 62.5% so that all the REM measurements are based on 10px sizing */
+
 html {
   font-size: 62.5%;
 }
@@ -20,6 +19,25 @@ html {
   padding: 12px 0; 
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
   z-index: 1000;
+}
+
+/* Navbar-header separata */
+
+.navbar-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1E3A5F;
+  z-index: 1000;
+}
+
+/* Rimuovi il background bianco dal header fisso */
+
+.navbar-header .navbar {
+  display: flex;
+  justify-content: center;
+  padding: 12px 0;
 }
 
 /* Link della navbar */
