@@ -17,7 +17,7 @@ html {
   background-color: #1E3A5F;
   display: flex;
   justify-content: center;
-  padding: 12px 0;
+  /* padding: 12px 0; */
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
   z-index: 1000;
 }
