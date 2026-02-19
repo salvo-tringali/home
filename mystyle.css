@@ -101,7 +101,7 @@ html, #container, .inner {
 }
 
 html {
-  background: url(background_dark.png) center center no-repeat fixed;
+  background: url(background_smoky.png) center center no-repeat fixed;
   background-size: cover;
 }
 
