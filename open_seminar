@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="viewport" content="width=device-width, height=device-height, user-scalable=yes, initial-scale=1.0" />
+  <title>Salvatore 'Salvo' Tringali - Home</title>
+
+  <link href="./mystyle.css" rel="stylesheet" type="text/css" />
+  <link rel="canonical" href="https://salvo-tringali.github.io/" />
+</head>
+
+<body>
+
+<header class="navbar-header">
+  <nav class="navbar">
+    <a href="/home/">Home</a>
+    <a href="/home/open-seminar/">Open Seminar</a>
+  </nav>
+</header>
+	
+  <div id="content-container">
+  <div id="content">
+
+<div id="header">
+  <div id="header-name">The Open Seminar</div>
+</div>
+
+    <p>
+		Page under construction.
+	</p>
+
+	<h2>Spring&ndash;Sumer 2025</h2>
+
+    <div class="talk">
+        <p class="speaker"> John Doe &#183; University of Joy, Serendipity <br>
+        <em>Recent trends in the theory of summer holidays </em>
+		(<a href="">slides</a>)
+		</p>
+    </div>
+
+   <div class="talk">
+        <p class="speaker">Mario Rossi &#183; Paramount Institute of Gattology, Venus <br>
+		<em>Cats and the maximum meowing principle</em>
+		(<a href="">slides</a>)
+		</p>
+    </div>
+
+<h2>Fall&ndash;Winter 2025</h2>
+
+<div class="talk">
+        <p class="speaker"> John Doe &#183; University of Joy, Serendipity <br>
+        <em>Recent trends in the theory of summer holidays </em>
+		(<a href="">slides</a>)
+		</p>
+    </div>
+
+   <div class="talk">
+        <p class="speaker">Mario Rossi &#183; Paramount Institute of Gattology, Venus <br>
+		<em>Cats and the maximum meowing principle</em>
+		(<a href="">slides</a>)
+		</p>
+    </div>
+
+  <div class="clearer"></div>
+
+  <div id="nav"></div>
+
+    <div id="footer">
+		<p style="text-align: right;">
+			Last changed: 2026-02-18
+		</p>
+	</div>
+  </div>
+</body>
+</html>
