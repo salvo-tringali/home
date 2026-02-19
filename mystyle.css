@@ -136,7 +136,7 @@ body {
 /* LIGHT PANELS INSTEAD OF DARK ONES */
 header, #content, footer { 
   background: rgba(255,255,255,.92);
-  /* padding: 25px; */
+  padding: 25px; 
   color: #222222; 
   box-shadow: 0 0 20px rgba(0,0,0,0.08);
   border-radius: 6px;
