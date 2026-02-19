@@ -7,17 +7,49 @@ html {
   font-size: 62.5%;
 }
 
+/* Navbar fissa in alto */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1E3A5F;
+  display: flex;
+  justify-content: center;
+  padding: 12px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+/* Link della navbar */
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+/* Hover effect */
+.navbar a:hover {
+  color: #FFD700;
+  border-bottom: 2px solid #FFD700;
+}
+
 body {
   font-size: 1.5em;
   line-height: 1.6;
   font-weight: 400;
   font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222222;
+  padding-top: 60px; /* Per evitare che il contenuto sia nascosto sotto la navbar */
 }
 
-/**
- * Links
- */
+/* Links */
+
 a {
   font-weight: normal;
   text-decoration: none; 
@@ -36,9 +68,8 @@ small {
   font-size: 75%;
 }
 
-/**
- * Headings
- */
+/* Headings */
+
 h1,
 h2,
 h3,
@@ -59,16 +90,14 @@ h4 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
 h5 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 h6 { font-size: 1.4rem; line-height: 1.6;  letter-spacing: 0; }
 
-/**
- * Paragraphs
- */
+/* Paragraphs */
+
 p {
   margin: 0 auto 1.5em auto;
 }
 
-/**
- * Quotes & Blockquotes
- */
+/* Quotes & Blockquotes */
+
 q {
   quotes: '\00201C' '\00201D';
 }
@@ -91,11 +120,10 @@ blockquote p:last-child {
   margin-bottom: 0;  
 }
 
-/**
- * Layout styles
- */
+/* Layout styles */
 
 /* Full size background image */
+
 html, #container, .inner { 
   background-color: transparent;
 }
@@ -123,9 +151,8 @@ iframe {
   max-width: 100%;
 }
 
-/**
- * Menu Links
- */
+/* Menu Links */
+
 ul.main-menu {
   margin: 0;
   padding: 0;
@@ -151,9 +178,8 @@ ul.main-menu li a.active {
   border-bottom-color: #EF6D3D;
 }
 
-/**
- * Utility classes
- */
+/* Utility classes */
+
 .hide {
   display: none;
 }
@@ -184,6 +210,7 @@ ul.main-menu li a.active {
 }
 
 /* Responsive: stack on small screens */
+
 @media (max-width: 700px) {
   .profile {
     flex-direction: column;
