@@ -63,7 +63,7 @@ body {
   font-weight: 400;
   font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222222;
-  /* padding-top: 50px; */
+  padding-top: 35px; 
   /* Per evitare che il contenuto sia nascosto sotto la navbar */
 }
 
