@@ -263,3 +263,82 @@ ul.main-menu li a.active {
 #header-institute a:hover {
   text-decoration: underline;
 }
+
+/* ===== Open Seminar Layout ===== */
+
+.seminar-talk {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 3em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Left column */
+
+.seminar-left {
+  width: 240px;
+  font-size: 1.4rem;
+  color: #555;
+}
+
+.seminar-date {
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin-bottom: 0.5em;
+}
+
+.seminar-time {
+  margin-bottom: 0.8em;
+}
+
+.seminar-location {
+  margin-bottom: 1em;
+  line-height: 1.4;
+}
+
+/* Mode badge */
+
+.seminar-mode {
+  display: inline-block;
+  padding: 4px 10px;
+  font-size: 1.2rem;
+  border-radius: 12px;
+  background-color: #e5e5e5;
+}
+
+.seminar-mode.in-person {
+  background-color: #d9e6f2;
+  color: #1E3A5F;
+}
+
+.seminar-mode.online {
+  background-color: #f2e3d9;
+  color: #8a3b12;
+}
+
+/* Right column */
+.seminar-right {
+  flex: 1;
+}
+
+.seminar-speaker {
+  font-size: 1.8rem;
+  margin-bottom: 0.3em;
+}
+
+.seminar-affiliation {
+  font-size: 1.5rem;
+  color: #444;
+  margin-bottom: 0.8em;
+}
+
+.seminar-title {
+  font-size: 1.7rem;
+  margin-bottom: 0.4em;
+}
+
+.seminar-links {
+  font-size: 1.4rem;
+}
+
