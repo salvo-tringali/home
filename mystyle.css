@@ -281,10 +281,6 @@ ul.main-menu li a.active {
   margin: 4px 0;
 }
 
-.talk-card .title {
-  font-style: italic;
-}
-
 .talk-card a {
   text-decoration: none;
   font-size: 0.95em;
