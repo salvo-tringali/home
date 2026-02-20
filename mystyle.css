@@ -272,19 +272,18 @@ ul.main-menu li a.active {
   margin-bottom: 3em;
   padding-bottom: 2em;
   border-bottom: 1px solid #ddd;
+  font-size: 1.6rem;   
 }
 
 /* Left column */
 
 .seminar-left {
   width: 240px;
-  font-size: 1.4rem;
   color: #555;
 }
 
 .seminar-date {
   font-weight: 600;
-  font-size: 1.6rem;
   margin-bottom: 0.5em;
 }
 
@@ -302,7 +301,6 @@ ul.main-menu li a.active {
 .seminar-mode {
   display: inline-block;
   padding: 4px 10px;
-  font-size: 1.2rem;
   border-radius: 12px;
   background-color: #e5e5e5;
 }
@@ -323,22 +321,25 @@ ul.main-menu li a.active {
 }
 
 .seminar-speaker {
-  font-size: 1.8rem;
   margin-bottom: 0.3em;
 }
 
 .seminar-affiliation {
-  font-size: 1.5rem;
   color: #444;
   margin-bottom: 0.8em;
 }
 
 .seminar-title {
-  font-size: 1.7rem;
   margin-bottom: 0.4em;
 }
 
-.seminar-links {
-  font-size: 1.4rem;
+@media (max-width: 700px) {
+  .seminar-talk {
+    flex-direction: column;
+  }
+
+  .seminar-left {
+    width: 100%;
+  }
 }
 
