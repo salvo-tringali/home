@@ -267,7 +267,7 @@ ul.main-menu li a.active {
 /* ===== Open Seminar Layout ===== */
 
 .talk-card {
-  background-color: #eaf6ec;        /* verde molto tenue */
+  /*background-color: #eaf6ec;*/        /* verde molto tenue */
   border: 1px solid #cfe8d4;
   border-radius: 8px;
   padding: 14px 18px;
@@ -279,14 +279,6 @@ ul.main-menu li a.active {
 
 .talk-card .row {
   margin: 4px 0;
-}
-
-.talk-card .time-place {
-  font-weight: 600;
-}
-
-.talk-card .speaker {
-  font-weight: 500;
 }
 
 .talk-card .title {
