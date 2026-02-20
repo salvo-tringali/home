@@ -266,80 +266,39 @@ ul.main-menu li a.active {
 
 /* ===== Open Seminar Layout ===== */
 
-.seminar-talk {
-  display: flex;
-  gap: 40px;
-  margin-bottom: 3em;
-  padding-bottom: 2em;
-  border-bottom: 1px solid #ddd;
-  font-size: 1.6rem;   
+.talk-card {
+  background-color: #eaf6ec;        /* verde molto tenue */
+  border: 1px solid #cfe8d4;
+  border-radius: 8px;
+  padding: 14px 18px;
+  margin: 14px 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 16px;                  /* stessa dimensione per tutto */
+  line-height: 1.5;
 }
 
-/* Left column */
-
-.seminar-left {
-  width: 240px;
-  color: #555;
+.talk-card .row {
+  margin: 4px 0;
 }
 
-.seminar-date {
+.talk-card .time-place {
   font-weight: 600;
-  margin-bottom: 0.5em;
 }
 
-.seminar-time {
-  margin-bottom: 0.8em;
+.talk-card .speaker {
+  font-weight: 500;
 }
 
-.seminar-location {
-  margin-bottom: 1em;
-  line-height: 1.4;
+.talk-card .title {
+  font-style: italic;
 }
 
-/* Mode badge */
-
-.seminar-mode {
-  display: inline-block;
-  padding: 4px 10px;
-  border-radius: 12px;
-  background-color: #e5e5e5;
+.talk-card a {
+  text-decoration: none;
+  font-size: 0.95em;
 }
 
-.seminar-mode.in-person {
-  background-color: #d9e6f2;
-  color: #1E3A5F;
-}
-
-.seminar-mode.online {
-  background-color: #f2e3d9;
-  color: #8a3b12;
-}
-
-/* Right column */
-.seminar-right {
-  flex: 1;
-}
-
-.seminar-speaker {
-  margin-bottom: 0.3em;
-}
-
-.seminar-affiliation {
-  color: #444;
-  margin-bottom: 0.8em;
-}
-
-.seminar-title {
-  margin-bottom: 0.4em;
-}
-
-@media (max-width: 700px) {
-  .seminar-talk {
-    flex-direction: column;
-  }
-
-  .seminar-left {
-    width: 100%;
-  }
+.talk-card a:hover {
+  text-decoration: underline;
 }
 
