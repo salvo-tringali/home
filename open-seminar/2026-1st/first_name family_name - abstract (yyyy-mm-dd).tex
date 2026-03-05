@@ -1,0 +1,125 @@
+%Please do not modify this part%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper,10pt]{amsart}  
+
+\textwidth16cm \textheight20.5cm \oddsidemargin-0.1cm
+\evensidemargin-0.1cm
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[inline]{enumitem}
+\usepackage[dvips]{graphicx}
+\usepackage{color}
+\usepackage{comment}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{stackrel}
+\usepackage{mathrsfs}
+\usepackage{stmaryrd}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+
+\usepackage{background} % Per la filigrana
+
+% Configurazione filigrana
+\backgroundsetup{
+  scale=0.5,            % dimensione logo
+  color=black,           % colore
+  opacity=0.08,           % trasparenza (0=trasparente, 1=opaco)
+  %contents={\includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{logo.png}},
+  position={current page.center} % posizione centrata
+}
+
+\definecolor{blue-url}{RGB}{0,0,100}
+
+\hypersetup{
+	pdftitle={The Open Seminar},
+	pdfmenubar=false,
+	pdffitwindow=true,
+	pdfstartview=FitH,
+	colorlinks=true,
+	linkcolor=blue-url,
+	citecolor=blue-url,
+	urlcolor=blue-url
+}
+
+\begin{document}              
+
+                           
+	
+	%Please note that the total length (including the references) must not exceed one page as pdf-file!
+		
+	\leftmargini16pt                                                           
+	\thispagestyle{empty}    
+	
+	%1. Insert the title of the talk inside \Large{} (obligatory)
+	
+	\begin{center}
+		\textbf{\Large{Category Theory meets Factorization Theory: the category \textsf{AtoMon}}}
+	\end{center}
+	\vskip 0.2cm
+	
+	%End of 1.
+	
+	
+	
+%2. Insert the speaker's first name(s) and last name(s) inside \textsc{} (obligatory)
+
+\begin{center}
+	Salvatore~\textsc{Tringali} % example
+\end{center}
+\vskip 0.8cm
+	
+%End of 2.
+	
+	
+	
+%3. Insert the abstract (obligatory)
+
+\textit{Abstract.} We introduce the category \textsf{AtoMon} of atomic monoids and atom-preserving homomorphisms as a non-full subcategory of the usual category of monoids and monoid homomorphisms. By computing all limits and colimits, we show that \textsf{AtoMon} is complete and cocomplete. We also explore arithmetic aspects of products and coproducts, deriving explicit formulas for key invariants related to factorization lengths. This work aims to build a bridge between category theory and factorization theory, offering a categorical framework for the study of atomic factorizations.
+%End of 3.
+	
+\vskip 0.5cm
+\textit{About the speaker.} % example
+Salvatore ``Salvo'' Tringali is a full professor of mathematics at the School of Mathematical Sciences of Hebei Normal University, where he has been since February 2019.
+
+Before joining HebNU, he held research and teaching positions at the University of Graz (as a Lise Meitner Fellow and Lecturer), Nankai University (as a Visiting Professor), \'Ecole Polytechnique (as a Postdoctoral Researcher), Texas A\&M University at Qatar (as a Postdoctoral Researcher), and Sorbonne University (Campus Pierre et Marie Curie, formerly Paris VI) as a Marie Curie Fellow.
+
+A recurring theme in his research is the interplay between arithmetic combinatorics and the structural properties of algebraic objects such as semigroups and rings. He has authored or coauthored about 40 papers, some of which have appeared in international journals such as Proceedings of the American Mathematical Society, Mathematical Proceedings of the Cambridge Philosophical Society, Pacific Journal of Mathematics, Journal of Algebra, and Israel Journal of Mathematics.
+
+	
+%4. Insert the references (optional).
+
+\begin{thebibliography}{9}
+\bibitem{Camp-Coss-Trin-2025} F.\ Campanini, L.\ Cossu, and S.\ Tringali, \textit{The category of atomic monoids}, preprint (\url{https://arxiv.org/abs/2502.06610}).
+\end{thebibliography}
+	
+	
+%Please do not modify this part
+	
+\vskip 0.5cm                                                                                                                         	
+	
+	
+	
+%5. Insert the affiliation, street, city, and country inside \textsc{} (obligatory)
+	
+{\footnotesize
+\textsc{School of Mathematical Sciences, Hebei Normal University | 050024  Shijiazhuang, China}}
+	
+	%End of 5.
+	
+	
+			
+%6. Insert the email address inside \texttt{} (obligatory)
+	
+{\footnotesize\textit{E-mail}:
+		\texttt{salvo.tringali@gmail.com} $\cdot$ \textit{Web}: \url{https://salvo-tringali.github.io/home/}
+}
+	
+%End of 6.
+\end{document}                                                                                                                       
