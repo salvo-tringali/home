@@ -140,5 +140,12 @@ ul.main-menu li a.active {
   display:block;
 }
 
+<!-- bibliography -->
 
+.bibliography li {
+  margin-bottom: 12px;
+  line-height: 1.45;
+  padding-left: 1.6em;
+  text-indent: -1.6em;
+}
 
