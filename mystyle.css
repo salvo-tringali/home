@@ -289,4 +289,15 @@ ul.main-menu li a.active {
 .talk-card a:hover {
   text-decoration: underline;
 }
+<!-- bibliography -->
+
+.bibliography li {
+  padding: 6px 8px;
+  margin-bottom: 6px;
+}
+
+.bibliography li:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+
 
