@@ -14,18 +14,30 @@
 
 <style>
 .bibliography li {
-  padding: 6px 8px;
-  margin-bottom: 6px;
-  line-height: 1.4;
+	padding: 6px 8px;
+	margin-bottom: 6px;
+	line-height: 1.4;
 }
 
 .bibliography li:nth-child(odd) {
-  background-color: #eaf6ec;
+	background-color: #eaf6ec;
 }
 
 .bibliography li:nth-child(even) {
-  background-color: #f7f7f7;
+	background-color: #f7f7f7;
 }
+
+.bibliography li.available::before {
+    content: "✔ ";
+    color: green;
+    font-weight: bold;
+  }
+
+.bibliography li.missing::before {
+    content: "✘ ";
+    color: red;
+    font-weight: bold;
+  }
 </style>
 	
 <body>
@@ -84,26 +96,26 @@
 
 <ul class="bibliography">
 
-<li> Salvatore TRINGALI and Weihao YAN, 
+<li class="available"> Salvatore TRINGALI and Weihao YAN, 
 	<em>Torsion groups and the Bienvenu–Geroldinger conjecture</em>, 
 	Bull. London Math. Soc., to appear 
 	(<a href="https://arxiv.org/abs/2601.19592">arXiv</a>)
 </li>
 	
-<li> Dein WONG, Songnian XU, Chi ZHANG, and Zhijun WANG, 
+<li class="available"> Dein WONG, Songnian XU, Chi ZHANG, and Zhijun WANG, 
 	<em>The automorphism group of the reduced finitary power monoid 
 		of the additive group of integers</em>, 
 	2026 preprint 
 	(<a href="https://arxiv.org/abs/2602.19493">arXiv</a>)
 </li>
 	
-<li> Balint RAGO, 
+<li class="available"> Balint RAGO, 
 	<em>The isomorphism problem for reduced finitary power monoids</em>, 
 	2026 preprint 
 	(<a href="https://arxiv.org/abs/2601.22469">arXiv</a>)
 </li>
 	
-<li> Laura COSSU and Salvatore TRINGALI, 
+<li class="available"> Laura COSSU and Salvatore TRINGALI, 
 	<em>On the arithmetic of power monoids</em>, 
 	J. Algebra 686 (Jan 2026), 793–813
 	(<a href="https://dx.doi.org/10.1016/j.jalgebra.2025.08.026">DOI</a> &middot; 
@@ -111,39 +123,39 @@
 	<a href="https://arxiv.org/abs/2503.08615">arXiv</a>)
 </li>
 
-<li> S.G. BERSHADSKY and Stanislav I. KUBLANOVSKY, 
+<li class="available"> S.G. BERSHADSKY and Stanislav I. KUBLANOVSKY, 
 	<em>On power semigroups of groups</em>, 
 	Semigroup Forum 111 (2025), No. 3, 543–560
 	(<a href="https://doi.org/10.1007/s00233-025-10594-3">DOI</a> &middot; 
 	<a href="https://zbmath.org/8140534">zbMATH</a>)
 </li>
 
-<li> Dein WONG, Songnian XU, Chi ZHANG, and Jinxing ZHAO,
+<li class="available"> Dein WONG, Songnian XU, Chi ZHANG, and Jinxing ZHAO,
 	<em>On automorphism groups of power semigroups over numerical semigroups</em>, 
 	2025 preprint 
 	(<a href="https://arxiv.org/abs/2512.12606">arXiv</a>)
 </li>
 	
-<li> Balint RAGO, 
+<li class="available"> Balint RAGO, 
 	<em>The automorphism group of reduced power monoids of finite abelian groups</em>, 
 	2025 preprint 
 	(<a href="https://arxiv.org/abs/2510.17533">arXiv</a>)
 </li>
 
-<li> Balint RAGO, 
+<li class="available"> Balint RAGO, 
 	<em>A counterexample to an isomorphism problem for power monoids</em>, 
 	Proc. Amer. Math. Soc.
 	(<a href="https://doi.org/10.1090/proc/17527">DOI</a> &middot; 
 	<a href="https://arxiv.org/abs/2509.23818">arXiv</a>)
 </li>
 
-<li> Andreas REINHART, 
+<li class="available"> Andreas REINHART, 
 	<em>On the system of length sets of power monoids</em>, 
 	2025 preprint 
 	(<a href="https://arxiv.org/abs/2508.10209">arXiv</a>)
 </li>
 
-<li> Pedro A. GARCÍA-SÁNCHEZ and Salvatore TRINGALI, 
+<li class="available"> Pedro A. GARCÍA-SÁNCHEZ and Salvatore TRINGALI, 
 	<em>Semigroups of ideals and isomorphism problems</em>, 
 	Proc. Amer. Math. Soc. 153 (2025), No. 6, 2323–2339
 	(<a href="https://doi.org/10.1090/proc/17122">DOI</a> &middot;
@@ -151,7 +163,7 @@
 	<a href="https://arxiv.org/abs/2410.15622">arXiv</a>)
 </li>
 
-<li> Salvatore TRINGALI and Weihao YAN, 
+<li class="available"> Salvatore TRINGALI and Weihao YAN, 
 	<em>On power monoids and their automorphisms</em>, 
 	J. Combin. Theory, Ser. A 209 (2025), #105961, 16 pp.
 	(<a href="https://doi.org/10.1016/j.jcta.2024.105961">DOI</a> &middot;
@@ -159,7 +171,7 @@
 	<a href="https://arxiv.org/abs/2312.04439">arXiv</a>)
 </li>
 
-<li> Salvatore TRINGALI and Weihao YAN, 
+<li class="available"> Salvatore TRINGALI and Weihao YAN, 
 	<em>A conjecture of Bienvenu and Geroldinger on power monoids</em>, 
 	Proc. Amer. Math. Soc. 153 (2025), No. 3, 913–919
 	(<a href="https://doi.org/10.1090/proc/16732">DOI</a> &middot;
