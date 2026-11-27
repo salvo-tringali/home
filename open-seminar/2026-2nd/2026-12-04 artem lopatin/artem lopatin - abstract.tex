@@ -1,0 +1,125 @@
+%Please do not modify this part%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper,10pt]{amsart}  
+
+\textwidth16cm \textheight20.5cm \oddsidemargin-0.1cm
+\evensidemargin-0.1cm
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[inline]{enumitem}
+\usepackage[dvips]{graphicx}
+\usepackage{color}
+\usepackage{comment}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{stackrel}
+\usepackage{mathrsfs}
+\usepackage{stmaryrd}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+
+\usepackage{background} % Per la filigrana
+
+% Configurazione filigrana
+\backgroundsetup{
+  scale=0.5,            % dimensione logo
+  color=black,           % colore
+  opacity=0.08,           % trasparenza (0=trasparente, 1=opaco)
+  contents={\includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{logo.png}},
+  position={current page.center} % posizione centrata
+}
+
+\definecolor{blue-url}{RGB}{0,0,100}
+
+\hypersetup{
+	pdftitle={The Open Seminar},
+	pdfmenubar=false,
+	pdffitwindow=true,
+	pdfstartview=FitH,
+	colorlinks=true,
+	linkcolor=blue-url,
+	citecolor=blue-url,
+	urlcolor=blue-url
+}
+
+\begin{document}
+
+% The total length (including the references) should not exceed one page.
+\thispagestyle{empty}
+
+% 1. Title of the talk
+\begin{center}
+    \textbf{\Large{Trace-Metrized Algebras}}
+\end{center}
+
+\vskip 0.2cm
+
+% 2. Speaker's name
+\begin{center}
+    Artem~\textsc{Lopatin}
+\end{center}
+
+\vskip 0.8cm
+
+% 3. Abstract
+\textit{Abstract.} We study finite-dimensional algebras that are not necessarily associative,
+commutative, or unital, focusing on symmetric nondegenerate associative
+bilinear forms constructed from traces of multiplication operators.
+Algebras admitting such forms are called \emph{trace-metrized}.
+
+Our main goal is to determine when an algebra is trace-metrizable,
+describe all its trace metrics, and investigate when every metric is a
+trace metric. We establish a canonical representation of symmetric
+trace forms and show that trace metrizability implies semisimplicity.
+We also study how metrizability and trace metrizability behave under
+mutations of the multiplication, obtaining criteria involving Lie and
+Jordan algebras.
+
+Special attention is given to algebras of dimensions two and three.
+We obtain criteria for trace metrizability and describe all trace metrics
+in these dimensions. Finally, we construct examples illustrating the
+differences between metrizability, trace metrizability, and semisimplicity.
+
+This is joint work with Mar\'{\i}a Alejandra \'{A}lvarez.
+
+\vskip 0.5cm
+
+% 4. Academic bio
+\textit{About the speaker.} Artem Lopatin is an Associate Professor of Mathematics at the University
+of Campinas (UNICAMP), Brazil. He received his Ph.D. from Omsk State
+University in 2004 and his Doctor of Sciences degree from the Sobolev
+Institute of Mathematics in 2013.
+
+His research interests include invariant theory, polynomial identities,
+representation theory, and nonassociative algebras. His work focuses
+on matrix and separating invariants, Lie and Novikov algebras, Weyl
+algebras, and octonions. He has held research positions at the Sobolev
+Institute of Mathematics and Bielefeld University, as well as a visiting
+appointment at the Technical University of Munich. He is an editor of
+\emph{Communications in Algebra}. His papers have appeared in journals
+including \emph{Journal of Algebra}, \emph{Algebra \& Number Theory},
+and \emph{Journal of Pure and Applied Algebra}.
+
+\vskip 0.5cm
+
+% 5. References are optional and are omitted for this seminar abstract.
+
+% 6. Affiliation and address
+{\footnotesize
+\textsc{Department of Mathematics, University of Campinas
+| 13083-859 Campinas, Brazil}}
+
+% 7. Contact details
+{\footnotesize
+\textit{E-mail}: \texttt{lopatin@unicamp.br}
+$\cdot$
+\textit{Web}: \url{https://sites.google.com/view/artemlopatin}
+}
+
+\end{document}

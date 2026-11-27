@@ -1,0 +1,136 @@
+%Please do not modify this part%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper,10pt]{amsart}  
+
+\textwidth16cm \textheight20.5cm \oddsidemargin-0.1cm
+\evensidemargin-0.1cm
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[inline]{enumitem}
+\usepackage[dvips]{graphicx}
+\usepackage{color}
+\usepackage{comment}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{stackrel}
+\usepackage{mathrsfs}
+\usepackage{stmaryrd}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+
+\usepackage{background} % Per la filigrana
+
+% Configurazione filigrana
+\backgroundsetup{
+  scale=0.5,            % dimensione logo
+  color=black,           % colore
+  opacity=0.08,           % trasparenza (0=trasparente, 1=opaco)
+  contents={\includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{logo.png}},
+  position={current page.center} % posizione centrata
+}
+
+\definecolor{blue-url}{RGB}{0,0,100}
+
+\hypersetup{
+	pdftitle={The Open Seminar},
+	pdfmenubar=false,
+	pdffitwindow=true,
+	pdfstartview=FitH,
+	colorlinks=true,
+	linkcolor=blue-url,
+	citecolor=blue-url,
+	urlcolor=blue-url
+}
+
+\begin{document}                                
+	
+%The total length (including the references) should not exceed one page as pdf-file
+		
+\leftmargini16pt                                                           
+\thispagestyle{empty}    
+	
+%1. Title of the talk inside \Large{} (mandatory)
+	
+\begin{center}
+	\textbf{\Large{The parity of the number of missing integers in partitions}}
+\end{center}
+
+%End of 1.
+
+\vskip 0.2cm
+	
+% ---------------------
+	
+%2. Speaker's first name(s) and last name(s) inside \textsc{} (mandatory)
+
+\begin{center}
+	Gurinder~\textsc{Singh} % example
+\end{center}
+
+\vskip 0.8cm
+	
+%End of 2
+	
+% ---------------------
+	
+%3. Abstract (mandatory)
+
+\textit{Abstract.} A missing integer of a partition is a positive integer smaller than its largest part that does not occur as a part. We investigate parity biases for the number of missing integers in partitions and overpartitions. For every integer $c\ge2$, we prove that the coefficients $a_c(n)$ of $(-cq;q)_\infty/(-q;q)_\infty$ are eventually strictly positive and provide an effectively computable threshold. The proof uses the circle method, combining a saddle-point analysis on the major arc with explicit uniform estimates on the minor arcs. Specializing to $c=2$ and $c=3$, and verifying the remaining finite cases, we show that partitions and overpartitions of $n$ with an even number of missing integers outnumber those with an odd number for $n>34$ and $n>27$, respectively. We further prove that, for $n>10$, the difference between the numbers of ordinary partitions with an even and an odd number of missing integers is smaller than the number of partitions of $n$ into distinct parts. These results confirm three conjectures of Bhoria, Eyyunni, and Santra \cite{BES_2026}. We also give a combinatorial interpretation of $a_c(n)$ for every integer $c\ge4$ in terms of colored partitions, generalizing the partition and overpartition interpretations of Bhoria, Eyyunni and Santra for $c=2$ and $c=3$, respectively. The talk is based on joint work with Qingdan Du.
+
+%End of 3.
+
+% ---------------------
+
+\vskip 0.5cm
+
+%4. Academic bio (mandatory)
+
+\textit{About the speaker.} Gurinder Singh is a postdoctoral fellow at the School of Mathematical Sciences of Hebei Normal University, where he has been since March 2026. He completed his PhD at the Indian Institute of Technology Guwahati (Assam, India). He works in number theory and combinatorics, with
+a particular focus on the theory of integer partitions. He investigates various aspects of combinatorics and modular forms in the study of partition functions. He studies the arithmetic properties of partition functions, including their distribution modulo certain prime powers and their asymptotic behavior. His research interests also lie in the field of partition identities and partition inequalities.
+
+%End of 4
+
+% ---------------------
+	
+%5. References (optional, but highly recommended)
+
+\begin{thebibliography}{9}
+\bibitem{BES_2026} 
+S. C. Bhoria, P. Eyyunni, and S. Santra, 
+\emph{On the number of missing integers in partitions}, 
+arXiv:2604.12557.
+\end{thebibliography}
+
+%End of 5
+
+\vskip 0.5cm                                                                                                                         	
+
+% ---------------------
+
+%6. Affiliation(s) & address(es) (including zip code, city & country) inside \textsc{} (mandatory)
+	
+{\footnotesize
+\textsc{%
+	School of Mathematical Sciences, Hebei Normal University | 050024 Shijiazhuang, China}%
+}
+	
+%End of 6
+
+% ---------------------
+			
+%7. Your email address (mandatory) and the url of your the webpage (optional), both inside \texttt{}
+	
+{\footnotesize%
+	\textit{E-mail}: \texttt{gurindermaan1018@gmail.com} 
+	$\cdot$ 
+	\textit{Web}: \url{https://sites.google.com/view/gurindersingh}
+}
+	
+%End of 7
+\end{document}                                                                                                                       
